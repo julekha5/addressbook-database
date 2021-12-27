@@ -13,3 +13,10 @@ CREATE TABLE addressBook (
         email varchar(20) NOT NULL UNIQUE,
         UNIQUE KEY name (firstname,lastname)
 );
+
+INSERT INTO addressbook VALUES
+('Julekha','Mulani','Kothrud','Pune','Maharashtra','424112','1234567890', 'jul.m@gmail.com'),
+('Rohini','Patil','Deccan','Pune','Maharashtra','420166','9191919291', 'rohini.p@gmail.com'),
+('Divya','K','Andhra','Andhra Pradesh','AP','487879','4567890125', 'divya.k@yahoo.com'),
+('Neeta','M','Madhya Pradesh','Gwalior','MP','43342','6577567890', 'neeta.m@gmail.com');
+
