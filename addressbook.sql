@@ -20,3 +20,7 @@ INSERT INTO addressbook VALUES
 ('Divya','K','Andhra','Andhra Pradesh','AP','487879','4567890125', 'divya.k@yahoo.com'),
 ('Neeta','M','Madhya Pradesh','Gwalior','MP','43342','6577567890', 'neeta.m@gmail.com');
 
+UPDATE addressbook SET firstname = 'Julekhaaa'
+WHERE firstname = 'Julekha'; 
+
+SELECT firstname from addressbook where firstname = 'Julekhaaa';
