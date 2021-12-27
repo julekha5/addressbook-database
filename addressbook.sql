@@ -24,3 +24,6 @@ UPDATE addressbook SET firstname = 'Julekhaaa'
 WHERE firstname = 'Julekha'; 
 
 SELECT firstname from addressbook where firstname = 'Julekhaaa';
+
+DELETE from addressbook WHERE firstname = 'Julekhaaa';
+
