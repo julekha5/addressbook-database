@@ -27,3 +27,5 @@ SELECT firstname from addressbook where firstname = 'Julekhaaa';
 
 DELETE from addressbook WHERE firstname = 'Julekhaaa';
 
+SELECT form addressbook 
+
