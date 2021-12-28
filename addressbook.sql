@@ -29,3 +29,4 @@ DELETE from addressbook WHERE firstname = 'Julekhaaa';
 
 SELECT form addressbook 
 
+SELECT * from addressbook where city = 'Pune' OR state = 'MP';
